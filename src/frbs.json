@@ -1,0 +1,8 @@
+{
+  "hosting": {
+    "site": "achraf-netflix",
+
+    "public": "public",
+    ...
+  }
+}
