@@ -1,11 +1,14 @@
-import Row from './components/Row.jsx'
 import './css/App.css';
-import requests from "./request"
+import Banner from './components/Banner';
+import Navbar from './components/Navbar';
+import Rows from './components/Rows';
 
 function App() {
   return (
     <div className="app">
-      <Row title="Trending Now" fetchURL={requests.trendingNow} />
+      <Navbar />
+      <Banner />
+      <Rows />
     </div>
   );
 }
